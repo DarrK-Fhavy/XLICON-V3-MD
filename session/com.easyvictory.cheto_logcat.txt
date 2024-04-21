@@ -1,0 +1,72 @@
+--------- beginning of crash
+--------- beginning of crash
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: FATAL EXCEPTION: main
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: Process: com.easyvictory.cheto:agent.p0, PID: 2167
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.miniclip.eightballpool/com.miniclip.eightballpool.EightBallPoolActivity}: java.lang.RuntimeException: Unable to instantiate application com.miniclip.eightballpool.EightBallPoolApplication: java.lang.RuntimeException: Found multiple conflicting per-domain rules
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3516)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3695)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2122)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7968)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:635)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: Caused by: java.lang.RuntimeException: Unable to instantiate application com.miniclip.eightballpool.EightBallPoolApplication: java.lang.RuntimeException: Found multiple conflicting per-domain rules
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:1276)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3419)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	... 11 more
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: Caused by: java.lang.RuntimeException: Found multiple conflicting per-domain rules
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.security.net.config.NetworkSecurityConfigProvider.handleNewApplication(NetworkSecurityConfigProvider.java:67)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:1267)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	... 12 more
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: FATAL EXCEPTION: main
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: Process: com.easyvictory.cheto:agent.p0, PID: 2167
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.miniclip.eightballpool/com.miniclip.eightballpool.EightBallPoolActivity}: java.lang.RuntimeException: Unable to instantiate application com.miniclip.eightballpool.EightBallPoolApplication: java.lang.RuntimeException: Found multiple conflicting per-domain rules
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3516)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3695)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2122)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7968)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:635)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: Caused by: java.lang.RuntimeException: Unable to instantiate application com.miniclip.eightballpool.EightBallPoolApplication: java.lang.RuntimeException: Found multiple conflicting per-domain rules
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:1276)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3419)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	... 11 more
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: Caused by: java.lang.RuntimeException: Found multiple conflicting per-domain rules
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.security.net.config.NetworkSecurityConfigProvider.handleNewApplication(NetworkSecurityConfigProvider.java:67)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:1267)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	... 12 more
+--------- beginning of crash
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: FATAL EXCEPTION: main
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: Process: com.easyvictory.cheto:agent.p0, PID: 2167
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.miniclip.eightballpool/com.miniclip.eightballpool.EightBallPoolActivity}: java.lang.RuntimeException: Unable to instantiate application com.miniclip.eightballpool.EightBallPoolApplication: java.lang.RuntimeException: Found multiple conflicting per-domain rules
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3516)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3695)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2122)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:223)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7968)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:635)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: Caused by: java.lang.RuntimeException: Unable to instantiate application com.miniclip.eightballpool.EightBallPoolApplication: java.lang.RuntimeException: Found multiple conflicting per-domain rules
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:1276)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3419)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	... 11 more
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: Caused by: java.lang.RuntimeException: Found multiple conflicting per-domain rules
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.security.net.config.NetworkSecurityConfigProvider.handleNewApplication(NetworkSecurityConfigProvider.java:67)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:1267)
+01-19 03:41:53.695  2167  2167 E AndroidRuntime: 	... 12 more
